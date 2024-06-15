@@ -41,6 +41,9 @@ struct AppSettingsData: Codable {
     var rootWorkDir = true
     var noKMOnInput = true
     var enableScrollWheel = true
+    
+    var maaTools = false
+    var maaToolsPort = 1717
 
     init() {}
 
